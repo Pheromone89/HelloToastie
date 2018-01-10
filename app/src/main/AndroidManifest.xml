@@ -21,7 +21,8 @@
             android:parentActivityName=".MainActivity" />
         <activity android:name=".JokoActivity" />
         <activity android:name=".BodoActivity" />
-        <activity android:name=".MexicanActivity"></activity>
+        <activity android:name=".MexicanActivity" />
+        <activity android:name=".MexicanShopperActivity"></activity>
     </application>
 
 </manifest>

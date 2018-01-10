@@ -11,12 +11,12 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
     public static final String ARTICLE_HEADER = "com.ggdz.store.hellotoast.extra.HEADER";
     public static final String ARTICLE_CONTENT = "com.ggdz.store.hellotoast.extra.CONTENT";
-
-    private int count = 0;
-    private TextView countView;
     Button unoButton;
     Button dosButton;
     Button tresButton;
+    Button shoppingCartButton;
+    private int count = 0;
+    private TextView countView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         unoButton = (Button) findViewById(R.id.uno_button);
         dosButton = (Button) findViewById(R.id.dos_button);
         tresButton = (Button) findViewById(R.id.tres_button);
+        shoppingCartButton = (Button) findViewById(R.id.shopping_cart_button);
 
         toastButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -89,6 +90,13 @@ public class MainActivity extends AppCompatActivity {
                 Intent i = new Intent(MainActivity.this, MexicanActivity.class);
                 i.putExtra(ARTICLE_HEADER, getResources().getString(R.string.ww_header));
                 i.putExtra(ARTICLE_CONTENT, getResources().getString(R.string.ww_content));
+                startActivity(i);
+            }
+        });
+        shoppingCartButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this, MexicanShopperActivity.class);
                 startActivity(i);
             }
         });
