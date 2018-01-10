@@ -15,6 +15,8 @@ public class MainActivity extends AppCompatActivity {
     Button dosButton;
     Button tresButton;
     Button shoppingCartButton;
+    Button intentButton;
+    Button simpleCalcButton;
     private int count = 0;
     private TextView countView;
 
@@ -32,6 +34,8 @@ public class MainActivity extends AppCompatActivity {
         dosButton = (Button) findViewById(R.id.dos_button);
         tresButton = (Button) findViewById(R.id.tres_button);
         shoppingCartButton = (Button) findViewById(R.id.shopping_cart_button);
+        intentButton = (Button) findViewById(R.id.intent_button);
+        simpleCalcButton = (Button) findViewById(R.id.calc_button);
 
         toastButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -97,6 +101,20 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity.this, MexicanShopperActivity.class);
+                startActivity(i);
+            }
+        });
+        intentButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this, IntentActivity.class);
+                startActivity(i);
+            }
+        });
+        simpleCalcButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this, SimpleCalcActivity.class);
                 startActivity(i);
             }
         });

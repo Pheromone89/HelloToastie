@@ -93,4 +93,20 @@
         android:background="@color/colorAccent"
         android:text="SHOPPING CART" />
 
+    <Button
+        android:id="@+id/intent_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:background="@color/colorAccent"
+        android:text="INTENT" />
+
+    <Button
+        android:id="@+id/calc_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:background="@color/colorAccent"
+        android:text="SIMPLE CALC" />
+
 </LinearLayout>

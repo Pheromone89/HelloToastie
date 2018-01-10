@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ggdz.store.hellotoast.PickerActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/buttonPicker1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="la panadería"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonPicker2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="los congelados"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonPicker3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="la frutería"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonPicker4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="el limón"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonPicker5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="la carne"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonPicker6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="el cordero"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonPicker7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="la ternera"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonPicker8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="el salchichón"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonPicker9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="el calabacín"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</ScrollView>

@@ -22,7 +22,10 @@
         <activity android:name=".JokoActivity" />
         <activity android:name=".BodoActivity" />
         <activity android:name=".MexicanActivity" />
-        <activity android:name=".MexicanShopperActivity"></activity>
+        <activity android:name=".MexicanShopperActivity" />
+        <activity android:name=".PickerActivity" />
+        <activity android:name=".IntentActivity" />
+        <activity android:name=".SimpleCalcActivity"></activity>
     </application>
 
 </manifest>
